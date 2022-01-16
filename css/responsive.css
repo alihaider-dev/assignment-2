@@ -3,6 +3,16 @@
   .site-menu {
     display: none;
   }
+  .hero-thumbnail {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-thumbnail img {
+    width: 300px;
+  }
   .hero-section {
     flex-direction: column-reverse;
   }
@@ -48,6 +58,16 @@
   }
   .hero-content {
     text-align: center;
+  }
+  .hero-thumbnail {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-thumbnail img {
+    width: 300px;
   }
 
   /* Our Partners */
