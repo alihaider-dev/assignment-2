@@ -1,0 +1,12 @@
+/* smaller than 640px */
+@media only screen and (max-width: 640px) {
+  .header-section {
+    display: none;
+  }
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+  .hero-content {
+    text-align: center;
+  }
+}
